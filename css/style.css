@@ -109,7 +109,7 @@ div.imagen_1 {
   right: -58px;
   width: 55%;
   height: 1020px;
-  background-image: url(./assets/img/mujer_vacuna.png);
+  background-image: url(/assets/img/mujer_vacuna.png);
   background-size: cover;
   background-position: center;
 }
