@@ -1,0 +1,84 @@
+.parte4 {
+  width: 93%;
+  position: relative;
+  top: 1100px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: 50% auto;
+  justify-content: flex-start;
+}
+#contacto_medio_hombre {
+  width: 700px;
+  margin-top: 200px;
+}
+.datos > h2 {
+  color: #1f3e72;
+  font-size: 44px;
+  font-weight: bolder;
+}
+.datos > p {
+  margin-top: 20px;
+  color: #738197;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 1.3em;
+  margin-bottom: 186px;
+}
+.contacto_medios {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+}
+.contato_cuadrado {
+  width: 250px;
+  height: 250px;
+  margin-right: 49px;
+  margin-bottom: 49px;
+  box-shadow: 0px 2px 5px rgba(63, 62, 62, 0.26);
+  border-radius: 10px;
+}
+.detalles_info {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.icono_detalles_info > img {
+  width: 50px;
+  background-color: #d7e1f8;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.informacion_detalles_info {
+  margin-top: 15px;
+}
+.informacion_detalles_info > h3 {
+  color: #1f3e72;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  border: none;
+}
+.informacion_detalles_info > p {
+  color: #738197;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.zona_boton > button {
+  margin: 38px 37px;
+  width: 174px;
+  height: 46px;
+  background-color: #f1f5ff;
+  color: #3a5ad6;
+}
+.zona_boton > button > a {
+  background-color: #f1f5ff;
+  color: #3a5ad6;
+}
+.zona_boton > button:hover {
+  background-color: #3353d1;
+  box-shadow: 0px 10px 5px rgba(63, 62, 62, 0.26);
+}
+.zona_boton > button > a:hover {
+  background-color: #3353d1;
+  color: #fff;
+}

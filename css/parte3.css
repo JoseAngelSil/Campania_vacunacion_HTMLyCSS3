@@ -1,0 +1,83 @@
+.parte3 {
+  width: 93%;
+  position: relative;
+  top: 930px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+}
+#MujerSugerencia {
+  margin-left: -110px;
+  margin-top: 250px;
+  width: 700px;
+}
+.div_informacion_derecha {
+  margin-top: 90px;
+  margin-left: 70px;
+}
+.info_parte3 {
+  color: #1f3e72;
+  font-size: 44px;
+  font-weight: bolder;
+}
+.contenido_parte3 {
+  color: #738197;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 1.3em;
+  margin-bottom: 115px;
+}
+.toogle {
+  width: 80%;
+  height: 547px;
+}
+.info_notoogle,
+.toogle_activo {
+  border: 1px solid rgba(63, 62, 62, 0.26);
+  box-shadow: 0px 2px 5px rgba(63, 62, 62, 0.26);
+  border-radius: 10px;
+}
+.info_notoogle {
+  display: grid;
+  grid-template-columns: 15% 75% 5%;
+  height: 60px;
+  padding-top: 10px;
+  margin-bottom: 34px;
+}
+.toogle_activo {
+  margin-bottom: 30px;
+  margin-bottom: 35px;
+}
+.cabeza {
+  display: grid;
+  grid-template-columns: 15% 75% 5%;
+  margin-bottom: 20px;
+  border: 1px solid cyan;
+}
+#imagen_icono_az {
+  width: 25px;
+  color: #2b70de;
+  background-color: #ebf2fe;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+#icono_notoogle_abajo,
+#icono_notoogle_upp {
+  width: 25px;
+  color: #2b70de;
+  background-color: #ebf2fe;
+  border-radius: 5px;
+}
+.detalle_medio {
+  font-size: 20px;
+  color: #1f3e72;
+  font-weight: bolder;
+}
+.contenido {
+  color: #738197;
+  font-size: 15px;
+  font-weight: bolder;
+  line-height: 1.3em;
+  margin-left: 75px;
+}

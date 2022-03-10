@@ -8,17 +8,37 @@
       content="Desarrollo web de una campaña de vacunacion"
     />
     <title>Vaccination</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/imagenes_farma.css" />
+    <link rel="stylesheet" href="/css/parte2.css" />
+    <link rel="stylesheet" href="/css/parte3.css" />
+    <link rel="stylesheet" href="/css/parte4.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Parte de la  barra de menu de la pagina web-->
     <header>
-      <img src="#" alt="Logotipo" />
-
+      <div class="logo">
+        <h1 class="logotipo_letra">
+          <b>Vaccination</b>
+        </h1>
+      </div>
       <nav>
-        <a href="#">Database</a>
-        <a href="#">Education</a>
-        <a href="#">News</a>
-        <a href="#">Regulation</a>
+        <a href="#" class="link_nav">Database</a>
+        <a href="#" class="link_nav">Education</a>
+        <a href="#" class="link_nav">News</a>
+        <a href="#" class="link_nav">Regulation</a>
         <button><a href="#" id="boton_nav">Hoax Buster</a></button>
       </nav>
     </header>
@@ -26,9 +46,10 @@
     <!--Parte de la primera seccion de informacion y localizacion-->
     <section class="Informacion parte1">
       <div class="titulo1">
-        <h1>Figt Virus With Vaccines</h1>
-        <br />
-
+        <h1>
+          Fight Virus <br />
+          With Vaccines
+        </h1>
         <p>
           let´s stop this pandemic by killing the virus <br />
           with a vaccine, don´t let yourself and your <br />
@@ -36,69 +57,69 @@
         </p>
       </div>
 
-      <div class="imagen_1">
-        <img src="#" alt="Woman with viccine" />
-      </div>
+      <div class="imagen_1"></div>
 
       <div class="dos_iconos">
         <div class="icono_izquierda">
-          <img src="#" id="icono" />
-          <span id="texto_detalle">Best proteccion</span>
+          <img src="/assets/iconos/escudo.png" id="icono" />
+          <span id="texto_detalle">Best protection</span>
         </div>
 
         <div class="icono_derecha">
-          <img src="#" id="icono" />
+          <img src="/assets/iconos/estrella.png" id="icono" />
           <span id="texto_detalle">Selected Vaccines</span>
         </div>
       </div>
 
       <div class="ubicacion">
-        <img src="#" alt="reloj" />
+        <img src="/assets/iconos/reloj.png" alt="reloj" />
         <span id="titulo_ubicacion">Schedule your vaccinations</span>
       </div>
 
       <div class="ubicacion_detalle">
         <div class="localizacion">
-          <img src="#" alt="localizar" /> <span id="lado_icono">Location</span>
-          <h2>Jakarta Utara</h2>
+          <img
+            src="/assets/iconos/marcador.png"
+            alt="localizar"
+            id="imagen_detalle_ub"
+          />
+          <span id="lado_icono">Location</span>
+          <h2 class="datos_ub_info">Jakarta Utara</h2>
         </div>
         <div class="date">
-          <img src="#" alt="calendar" /> <span id="lado_icono">Date</span>
-          <h2>08 July 2021</h2>
+          <img
+            src="/assets/iconos/calendario.png"
+            alt="calendar"
+            id="imagen_detalle_ub"
+          />
+          <span id="lado_icono">Date</span>
+          <h2 class="datos_ub_info">08 July 2021</h2>
         </div>
         <div class="vaccine_type">
-          <img src="#" alt="viccine" />
+          <img
+            src="/assets/iconos/lapiz.png"
+            alt="viccine"
+            id="imagen_detalle_ub"
+          />
           <span id="lado_icono">Vaccine Type</span>
-          <h2>moderna</h2>
+          <h2 class="datos_ub_info">Moderna</h2>
         </div>
         <div class="boton_nav boton_ubicacion">
           <button>
-            <a href="#">Submit</a>
+            <a href="#" id="boton_submit">Submit</a>
           </button>
         </div>
       </div>
     </section>
 
-    <section class="imagenes_farma">
-      <div class="imagen_logo_farma">
-        <img src="#" alt="Aztra Zeneca" />
-      </div>
-      <div class="imagen_logo_farma">
-        <img src="#" alt="Sinovac" />
-      </div>
-      <div class="imagen_logo_farma">
-        <img src="#" alt="pfizer" />
-      </div>
-      <div class="imagen_logo_farma">
-        <img src="#" alt="moderna" />
-      </div>
-    </section>
+    <section class="imagenes_farma"></section>
 
+    <!--Parte de la segunda seccion de informacion y localizacion-->
     <section class="Informacion parte2">
       <div class="titulo2">
-        <h2>Why shoukd I Vaccine</h2>
+        <h2><b>Why shoukd I Vaccine?</b></h2>
         <p>
-          In order to avoid doubts getting the COVID-19 <br />
+          In order to avoid any doubts about getting the COVID-19 <br />
           vaccine, identyfy the following 4 benefits of COVID-19 <br />
           vaccination:
         </p>
@@ -106,48 +127,51 @@
 
       <div class="opciones_datos">
         <div class="dato1">
-          <img src="#" alt="DATO1" />
-          <h3>
+          <img src="/assets/iconos/lista.png" alt="DATO1" />
+          <h3 class="subtema_info">
             Minimize the <br />
             spread of viruses
           </h3>
-          <p>
+          <p id="subtema_contenido">
             Viccine has been proveen <br />
             affective to prevent some <br />
-            from getting infected with Coronaviruz
+            from getting infected with <br />
+            Coronavirus
+          </p>
+        </div>
+
+        <div class="dato1">
+          <img src="/assets/iconos/escudo.png" alt="DATO1" />
+          <h3 class="subtema_info">
+            Forming <br />
+            antibodies
+          </h3>
+          <p id="subtema_contenido">
+            COVID-19 vaccine proven to<br />
+            help shape antibody <br />
+            response for immunne system
           </p>
         </div>
         <div class="dato1">
-          <img src="#" alt="DATO1" />
-          <h3>
-            Minimize the <br />
-            spread of viruses
+          <img src="/assets/iconos/usuarios-alt.png" alt="DATO1" />
+          <h3 class="subtema_info">
+            Protecting <br />
+            people nearby
           </h3>
-          <p>
-            Viccine has been proveen <br />
-            affective to prevent some <br />
-            from getting infected with Coronaviruz
+          <p id="subtema_contenido">
+            The benefits of COVID-19 <br />
+            vaccination are the vaccine <br />
+            that we get can also help <br />
+            protect people around us
           </p>
         </div>
         <div class="dato1">
-          <img src="#" alt="DATO1" />
-          <h3>
-            Minimize the <br />
-            spread of viruses
+          <img src="/assets/iconos/siguiente.png" alt="DATO1" />
+          <h3 class="subtema_info">
+            Creating group <br />
+            immunity
           </h3>
-          <p>
-            Viccine has been proveen <br />
-            affective to prevent some <br />
-            from getting infected with Coronaviruz
-          </p>
-        </div>
-        <div class="dato1">
-          <img src="#" alt="DATO1" />
-          <h3>
-            Minimize the <br />
-            spread of viruses
-          </h3>
-          <p>
+          <p id="subtema_contenido">
             Viccine has been proveen <br />
             affective to prevent some <br />
             from getting infected with Coronaviruz
@@ -156,81 +180,171 @@
       </div>
     </section>
 
-    <section class="Informacion parte3">
-      <div class="imagen_derecha">
-        <img src="#" alt="persona vacunada" />
+    <section class="parte3 Informacion">
+      <div class="imagen_izquierda_mujer">
+        <img
+          src="/assets/img/doctor2.jpg"
+          alt="persona vacunada"
+          id="MujerSugerencia"
+        />
       </div>
-
-      <div class="informacion_derecha">
-        <h2>Lorem ipsum dolor sit amet</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur <br />
-          adipisicing elit, sed do eiusmod tempor incididunt <br />
-          ut labore et dolore magna aliqua. <br />
-          Ut enim ad minim veniam, quis <br />
-          nostrud exercitation
-        </p>
-      </div>
-
-      <div class="toogle">
-        <div class="info_notoogle">
-          <div classid="icono_iz_azul">
-            <img src="#" alt="escudo" />
-          </div>
-          <div class="detalle_medio">lorem asdf asdf</div>
-          <div class="icono_derecha_azul">
-            <img src="#" alt="flecha a bajo" />
-          </div>
+      <div class="div_informacion_derecha">
+        <div class="inforcion_principal_encabezado">
+          <h2 class="info_parte3"><b>Preparations Before Vaccine</b></h2>
+          <p class="contenido_parte3">
+            The sucess of vaccines is strongly influenced by the<br />
+            strength of the body's immune system. therefore, there are<br />
+            several things that can be tried to make the COVID-19<br />
+            vaccine work:
+          </p>
         </div>
-        <div class="toogle_activo">
-          <div class="cabeza">
+        <div class="toogle">
+          <div class="info_notoogle">
             <div classid="icono_iz_azul">
-              <img src="#" alt="escudo" />
+              <img src="/assets/iconos/escudo_tache.svg" alt="escudo" id="imagen_icono_az"/>
             </div>
-            <div class="detalle_medio">lorem asdf asdf</div>
+            <div class="detalle_medio">Avoid alcholic beverages</div>
             <div class="icono_derecha_azul">
-              <img src="#" alt="flecha a bajo" />
+              <img src="/assets/iconos/down.svg" alt="flecha a bajo" id="icono_notoogle_abajo"/>
             </div>
           </div>
 
-          <div class="contenido">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
+          <div class="toogle_activo">
+            <div class="cabeza">
+              <div classid="icono_iz_azul">
+                <img src="/assets/iconos/cuadrado_tache.svg" alt="escudo" id="imagen_icono_az" />
+              </div>
+              <div class="detalle_medio">Avoid stress</div>
+              <div class="icono_derecha_azul">
+                <img src="/assets/iconos/upp.svg" alt="flecha a bajo" id="icono_notoogle_upp" />
+              </div>
+            </div>
 
-        <div class="info_notoogle">
-          <div classid="icono_iz_azul">
-            <img src="#" alt="escudo" />
+            <div class="contenido">
+              <p>
+                Stress has a profound effect on immune work. <br />
+                morever, prolonged stress can increase cortisol <br />
+                production and oxidative stress in the body.
+              </p>
+            </div>
           </div>
-          <div class="detalle_medio">lorem asdf asdf</div>
-          <div class="icono_derecha_azul">
-            <img src="#" alt="flecha a bajo" />
+
+          <div class="info_notoogle">
+            <div classid="icono_iz_azul">
+              <img src="/assets/iconos/cuadrado_lineas.svg" alt="escudo" id="imagen_icono_az" />
+            </div>
+            <div class="detalle_medio">Eat healthy food</div>
+            <div class="icono_derecha_azul">
+              <img src="/assets/iconos/down.svg" alt="flecha a bajo" id="icono_notoogle_abajo"/>
+            </div>
           </div>
-        </div>
-        <div class="info_notoogle">
-          <div classid="icono_iz_azul">
-            <img src="#" alt="escudo" />
+          <div class="info_notoogle">
+            <div classid="icono_iz_azul">
+              <img src="/assets/iconos/check.svg" alt="escudo" id="imagen_icono_az"/>
+            </div>
+            <div class="detalle_medio">Get enough slepp</div>
+            <div class="icono_derecha_azul">
+              <img src="/assets/iconos/down.svg" alt="flecha a bajo" id="icono_notoogle_abajo"/>
+            </div>
           </div>
-          <div class="detalle_medio">lorem asdf asdf</div>
-          <div class="icono_derecha_azul">
-            <img src="#" alt="flecha a bajo" />
-          </div>
-        </div>
-        <div class="info_notoogle">
-          <div classid="icono_iz_azul">
-            <img src="#" alt="escudo" />
-          </div>
-          <div class="detalle_medio">lorem asdf asdf</div>
-          <div class="icono_derecha_azul">
-            <img src="#" alt="flecha a bajo" />
+          <div class="info_notoogle">
+            <div classid="icono_iz_azul">
+              <img src="/assets/iconos/corazon.svg" alt="escudo" id="imagen_icono_az"/>
+            </div>
+            <div class="detalle_medio">Exercise or physical activity</div>
+            <div class="icono_derecha_azul">
+              <img src="/assets/iconos/down.svg" alt="flecha a bajo" id="icono_notoogle_abajo"/>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="parte4 Informacion">
+      <div class="informacion_izquierda">
+        <div class="datos">
+          <h2>Emergency Contact</h2>
+          <p>
+            Contact one of the contacs below if you or your family feel <br/>
+            unwell and have similar symtomps such as COVID-19, make <br />
+            sure you also take care of yourself before reporting to us:
+          </p>
+        </div>
+        <div class="contacto_medios">
+          <div class="contato_cuadrado">
+            <div class="detalles_info">
+              <div class="icono_detalles_info">
+                <img src="/assets/iconos/telefomo.svg" alt="Telefono">
+              </div>
+              <div class="informacion_detalles_info">
+                <h3>Call</h3>
+                <p>021.123.145.14</p>
+              </div>
+            </div>
+            <div class="zona_boton">
+              <button>
+                <a href="#">Call Now</a>
+              </button>
+            </div>
+          </div>
+          <div class="contato_cuadrado">
+            <div class="detalles_info">
+              <div class="icono_detalles_info">
+                <img src="/assets/iconos/chat.svg" alt="Chat">
+              </div>
+              <div class="informacion_detalles_info">
+                <h3>Chat</h3>
+                <p>021.123.145.14</p>
+              </div>
+            </div>
+            <div class="zona_boton">
+              <button>
+                <a href="#">Chat Now</a>
+              </button>
+            </div>
+          </div>
+          <div class="contato_cuadrado">
+            <div class="detalles_info">
+              <div class="icono_detalles_info">
+                <img src="/assets/iconos/camera-video-fill.svg" alt="video">
+              </div>
+              <div class="informacion_detalles_info">
+                <h3>Video Call</h3>
+                <p>021.123.145.14</p>
+              </div>
+            </div>
+            <div class="zona_boton">
+              <button>
+                <a href="#">Video Call Now</a>
+              </button>
+            </div>
+          </div>
+          <div class="contato_cuadrado">
+            <div class="detalles_info">
+              <div class="icono_detalles_info">
+                <img src="/assets/iconos/sobre_carta.svg" alt="mensaje">
+              </div>
+              <div class="informacion_detalles_info">
+                <h3>Message</h3>
+                <p>021.123.145.14</p>
+              </div>
+            </div>
+            <div class="zona_boton">
+              <button>
+                <a href="#">Message Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="imagen_hombre_iz">
+        <img
+          src="/assets/img/doctor3.jpg"
+          alt="Contacto"
+          id="contacto_medio_hombre"
+        />
+      </div>
+    </section>
+
   </body>
 </html>

@@ -1,0 +1,14 @@
+.imagenes_farma{
+    width:90%;
+    margin-left: 90px;
+    position: relative;
+    top: 880px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    height: 190px;
+    margin-bottom: 30px;
+    background-image:url(https://vaccine.animeplay.us/images/vaccines.jpg);
+    background-size:cover;
+    background-position: center;
+}
