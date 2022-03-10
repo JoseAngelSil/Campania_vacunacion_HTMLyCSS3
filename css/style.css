@@ -107,12 +107,16 @@ div.imagen_1 {
   top: 0%;
   right: 0%;
   right: -58px;
-  width: 55%;
+  width: 700px;
   height: 1020px;
   /*Arreglo de fondo*/
-  background-image: url("/assets/img/mujer_vacuna.png");
+  background: #fff;
   background-size: cover;
   background-position: center;
+}
+div.imagen_1>img{
+  width: 750px;
+  height:1020px;
 }
 
 /* Dos imagenes de informacion1*/
